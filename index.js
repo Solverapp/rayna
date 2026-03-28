@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 // Rayna API base
-const BASE_URL = "https://activities.raynatours.com/api/";
+const BASE_URL = "https://activities.raynatours.com/api";
 
 // Keep-Alive агент для HTTPS
 const agent = new https.Agent({ keepAlive: true, rejectUnauthorized: false });
